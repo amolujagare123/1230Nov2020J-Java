@@ -8,10 +8,14 @@ public class DateDemo {
 
         Date date = new Date();
         System.out.println(date);
-        // coverting date into string
+        // coverting date into string -- > use format method
 
         SimpleDateFormat sd = new SimpleDateFormat("dd/MM/yyyy");
+
         String dateStr = sd.format(date);
+
+
+
         System.out.println(dateStr);
 
 
