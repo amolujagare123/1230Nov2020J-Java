@@ -2,12 +2,12 @@ package ConstructorDemo.pack2;
 
 public class Java4 {
 
-    int i4;
-    double d4;
-    char ch4;
-    String str4;
+    public int i4;
+    public double d4;
+    public char ch4;
+    public String str4;
 
-    void display()
+    public void display4()
     {
         System.out.println("i="+i4);
         System.out.println("d="+d4);

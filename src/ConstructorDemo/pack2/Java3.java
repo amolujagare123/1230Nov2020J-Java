@@ -2,7 +2,7 @@ package ConstructorDemo.pack2;
 
 import ConstructorDemo.pack1.Java1;
 
-public class Java3 {
+public class Java3 extends  Java1{
 
     int i3;
     double d3;
@@ -22,8 +22,13 @@ public class Java3 {
         Java1 ob = new Java1();
 
         ob.i1 =67;
-       // ob.ch1 = 'j';
-      //  ob.display();
+     //   ob.d1 =90.5;
+
+        Java3 obj = new Java3();
+
+        obj.i1 = 10;
+        obj.d1 =23.5;
+
 
     }
 }

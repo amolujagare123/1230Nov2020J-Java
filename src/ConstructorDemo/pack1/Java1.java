@@ -3,7 +3,7 @@ package ConstructorDemo.pack1;
 public class Java1 {
 
     public  int i1;
-    double d1;
+    protected  double d1;
     private char ch1;
     String str1;
 

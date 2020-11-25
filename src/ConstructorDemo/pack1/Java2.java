@@ -20,6 +20,7 @@ public class Java2 {
         Java1 obJ2 = new Java1();
         obJ2.i1 =23;
         obJ2.str1 ="fefe";
+        obJ2.d1 = 34.4;
        // obJ2.ch1 ='j';
         obJ2.display();
     }
