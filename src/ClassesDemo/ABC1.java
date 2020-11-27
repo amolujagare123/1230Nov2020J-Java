@@ -1,5 +1,16 @@
 package ClassesDemo;
 
+import staticDemo.Student;
+
+import static staticDemo.Student.*;
+
+
+/*import static staticDemo.Student.college;
+import static staticDemo.Student.printCollege;
+import static staticDemo.Student.*;*/
+
+
+
 public class ABC1 {
 
     int i;
@@ -32,6 +43,19 @@ public class ABC1 {
 
         ob1.display();
 
+        Student ob = new Student();
+
+        ob.name = "xyz";
+
+        ob.college ="AAA";
+
+        Student.college ="BBB";
+
+        printCollege();
+
+        college = "ccc";
+
+        printCollege();
 
 
     }
